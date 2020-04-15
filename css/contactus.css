@@ -7,8 +7,9 @@
 .contact{
     padding: 5rem 0 10rem 0;
     text-align: center;
-    background:url(../images/con2.jpeg) no-repeat center top / cover;
+    background:url(../images/con4.jpeg) no-repeat center top / cover;
     background-size: cover;
+    
 }
 /* підключити фонти */
 .contact_heading{
@@ -19,6 +20,7 @@
     color: #fff;
     text-shadow: 0 1rem 2rem #000;
     margin-bottom: 4rem;
+    font-family: 'Spartan', sans-serif;
 }
 
 .contact_form{
@@ -30,6 +32,9 @@
     border-radius: .5rem;
     box-shadow: 0 1rem 3rem #000;
     padding: 1rem;
+    opacity: 0.9;
+    font-family:'Montserrat', sans-serif;
+    margin-top: 20px;
 }
 
 .input_group{
@@ -65,7 +70,8 @@
 
 .input_group input:focus,
 .input_group textarea:focus {
-  border: 0.1rem solid #000;
+  border: 0.1rem solid #23eea0;
+  outline: none;
 }
 
 .input_group label {
@@ -75,6 +81,8 @@
     /* letter-spacing: 0.1rem; */
     color: #000;
     position: absolute;
+    top:-25px;
+    /* bottom: 60px; */
     left: 18px;
 }
 
@@ -102,11 +110,22 @@
     max-width: 100%;
   }
 
-  /* .company-info{
-    background:#c9e6ff;
+  .company-info{
+    width: 42rem;
+    height: 10rem;
+    border-radius: .5rem;
+    background-color: #e5e5e5;
+    margin: auto;
+    opacity: 0.9;
+
+  }
+  /* .company-info h3{
+    font-family:'Montserrat', sans-serif;
+
   } */
-  
-  /* .company-info h3, .company-info ul{
+  .company-info h3, .company-info ul{
     text-align: center;
     margin:0 0 1rem 0;
-  } */
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.5rem;
+  }
