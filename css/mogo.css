@@ -21,7 +21,11 @@ h1,h2,h3,h4,h5,h6{
 	max-width: 1000px;
 	margin: 0 auto;
 
-}		
+}
+.center{
+	display: flex;
+	justify-content: center;
+}
 
 .intro{
 	display: flex;
@@ -199,7 +203,7 @@ a.active{
 
 
 
-.button{
+.button_intro{
 	display: inline-block;
 	vertical-align: top;
 	margin: 35px auto 25px;
@@ -214,7 +218,7 @@ a.active{
 	transition: background .1s linear, color .1s linear;
 }
 
-.button:hover{
+.button_intro:hover{
 	background-color: #fff;
 	color: #333;
 }
@@ -477,7 +481,7 @@ hr{
 }
 /* popular tours */
 .section--popturs{
-	padding: 5rem 0 10rem 0;
+	padding: 5rem 0 110px 0;
 }
 .cards_wrapper{
 	display: flex;
@@ -713,7 +717,9 @@ hr{
   } */
 
 /* Tabs */
-
+.section--offers{
+	padding: 7rem 0 110px 0;
+}
 .tabs{
 	border: 1px solid #000;
 	border-radius: 15px;
@@ -810,9 +816,9 @@ hr{
 
 .reviews{
 	padding: 0 110px;
-	margin-top: 100px;
+	/* margin-top: 100px; */
 	position: relative;
-	min-height: 300px;
+	min-height: 200px;
 }
 
 .reviews__item{
@@ -869,9 +875,6 @@ hr{
 }
 
 
-
-
-
 .reviews__photo{
 	max-width: 145px;
 	border: 2px solid #95e1d3;
@@ -907,4 +910,69 @@ hr{
 	background-color: #f38181;
 }
 
+.button_contact{
+	display: inline-block;
+	vertical-align: top;
+	margin: 35px auto 25px;
+	padding: 6px 22px;
+	border: 3px solid #fff;
+	border-radius: 18px;
+	background-color: #000;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration:none;
+	transition: background .1s linear, color .1s linear;
+}
 
+.button_contact:hover{
+	background-color: #fff;
+	color: #333;
+	border: 3px solid #333;
+}
+
+.footer {
+	background-color: #36da95;
+	padding: 0.5rem 0 0.5rem 0;
+  }
+  
+  .footer-list {
+	display: flex;
+	justify-content: center;
+  }
+  
+  .footer-link {
+	font-size: 1.2rem;
+	color: #fff;
+	margin: 0 2rem;
+	/* background-color: var(--grey-color); */
+	/* padding: 0.3rem 3rem; */
+	/* letter-spacing: 0.3rem; */
+	transition: all 0.2s;
+  }
+  .footer-link:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	/* display: none; */
+	opacity: 0;
+	color:red;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;	
+	transition: opacity .1s;
+}
+  .footer-link:hover{
+	color:#000;
+  }
+  
+  .footer-paragraph {
+	text-align: center;
+	font-size: 1.5rem;
+	color: var(--secondary-color);
+	/* letter-spacing: 0.2rem; */
+	margin-top: 3rem;
+  }

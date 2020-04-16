@@ -45,7 +45,7 @@ $(document).ready(function() {
 				// perform animated scrolling by getting top-position of target-element and set it as scroll target
 				$('html, body').stop().animate({
 						scrollTop: $(target).offset().top
-				}, 1000, function() {
+				}, 600, function() {
 						location.hash = target; //attach the hash (#jumptarget) to the pageurl
 				});
 
