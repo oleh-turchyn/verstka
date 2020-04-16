@@ -597,7 +597,7 @@ hr{
 	border-radius: 0.3rem;
 	border: none;
 	font-size: 1.1rem;
-	font-weight: 600;
+	font-weight: 400;
 	text-transform: uppercase;
 	/* letter-spacing: 0.1rem; */
 	cursor: pointer;
@@ -739,6 +739,7 @@ hr{
 	cursor: pointer;
 	font-family: 'Spartan', sans-serif;
 	text-transform: uppercase;
+	font-size: 11px;
 	
 }
 .tabs_button:first-child{
