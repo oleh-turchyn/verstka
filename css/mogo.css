@@ -429,7 +429,11 @@ transform: translate3d(0,-50%,0);     transition: opacity .2s linear; }
 	top:0;
 	left: 28px;
 	z-index: 1;
+	/* color: #15AABF; */
+	color:#36da95;
+
 }
+
 
 .services__title{
 	margin-bottom: 10px;
@@ -753,7 +757,7 @@ hr{
 	background: #000;
 	color: #fff;
 }
-
+/* color for icons 15AABF */
 .tabs_content{
 	padding: 15px;
 	font-size: 0.8rem;
