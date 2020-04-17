@@ -1,0 +1,37 @@
+{
+"tours": [
+    {
+      "name": "Weekend on Cheremosh",
+      "description": [
+        "Ukraine",
+        "2 days tour",
+        "up to 10 people",
+        "4 tour gides",
+        "Sleep in private tents",
+        "Difficulty: medium"
+      ]
+    },
+    {
+        "name": "Rope Jumping in Niouc",
+        "description": [
+          "Switzerland",
+          "3 days tour",
+          "up to 5 people",
+          "2 tour gides",
+          "Sleep in private tents",
+          "Difficulty: medium"
+        ]
+    },
+    {
+        "name": "Trekking to Everest",
+        "description": [
+          "Nepal",
+          "16 days tour",
+          "up to 10 people",
+          "8 tour gides",
+          "Sleep in private tents or in hotel",
+          "Difficulty: hard"
+        ]
+    }
+  ]
+}
