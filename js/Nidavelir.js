@@ -203,3 +203,49 @@ $(function(){
 			item.parentElement.parentElement.classList.toggle('change');
 		}
 	});
+
+
+
+var requestURL = 'https://raw.githubusercontent.com/oleh-turchyn/verstka/develop/js/poptours.json';
+var request = new XMLHttpRequest();
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
+request.onload = function() {
+	var poptours = request.response;
+	//populateHeader(superHeroes);
+	showTours(poptours);
+  };
+  var cards_wrapper = document.querySelector('.cards_wrapper');
+  var myCard = document.querySelectorAll('.card');
+  var myFrontSide = document.querySelectorAll('.front-side');
+  var myHeader = document.querySelectorAll('.tour_name');
+  function showTours(jsonObj) {
+	var tours = jsonObj['tours'];
+		
+	for (var i = 0; i < tours.length; i++) {
+	  
+	  //var myList = document.querySelector('.card_list');
+  
+	  myHeader[i].textContent = tours[i].name;
+	  myFrontSide[i].appendChild(myHeader[i]);
+	  myCard[i].appendChild(myFrontSide[i]);
+	  cards_wrapper.appendChild(myCard[i]);
+		  
+	//   var description = tours[i].description;
+	//   for (var j = 0; j < description.length; j++) {
+	// 	var listItem = document.querySelectorAll('.card_list-item');
+	// 	listItem.textContent = description[j];
+	// 	// myList.appendChild(listItem);
+	//   }
+  
+	//   myArticle.appendChild(myH2);
+	//   myArticle.appendChild(myPara1);
+	//   myArticle.appendChild(myPara2);
+	//   myArticle.appendChild(myPara3);
+	//   myArticle.appendChild(myList);
+  
+	//   section.appendChild(myArticle);
+	}
+  }
+
