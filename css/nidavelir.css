@@ -756,6 +756,9 @@ hr{
 .tabs_button:first-child{
 	border-radius: 15px 0 0 0;
 }
+.tabs_button:last-child{
+	border-radius: 0 0 0 15px;
+}
 /* .tabs_button:active{
 	background: rgb(153, 153, 153);
 } */
@@ -807,7 +810,7 @@ hr{
 	height:100%;
 	max-height: 250px;
 	margin-top: 40px;
-	margin-right: 20px;
+	/* margin-right: 20px; */
 }
 .tabs_content-active{
 	display: block;
@@ -816,7 +819,11 @@ hr{
 .tabs_content > :first-child{
 	margin-top: 0;
 }
-
+.tabs_list{
+	margin-right: 20px;
+	margin-left: 0;
+	font-size: 15px;
+}
 /* Services */
 
 .reviews{
