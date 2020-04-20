@@ -25,7 +25,7 @@ elem.onmouseout = function () {
 $(document).ready(function () {
 	$("header").removeClass("default");
 	$(window).scroll(function () {
-		//var scrollPos = $(this).scrollTop();
+		var scrollPos = $(this).scrollTop();
 		if ($(this).scrollTop() > 20) {
 			$("header").addClass("default");
 		} else {
@@ -36,34 +36,10 @@ $(document).ready(function () {
 
 });
 
-$(document).ready(function () {
-	$('a[href*=#]').bind('click', function (e) {
-		e.preventDefault(); // prevent hard jump, the default behavior
-
-		var target = $(this).attr("href"); // Set the target as variable
-
-		// perform animated scrolling by getting top-position of target-element and set it as scroll target
-		$('html, body').stop().animate({
-			scrollTop: $(target).offset().top
-		}, 600, function () {
-			location.hash = target; //attach the hash (#jumptarget) to the pageurl
-		});
-
-		return false;
-	});
-});
 
 $(window).scroll(function () {
 	var scrollDistance = $(window).scrollTop();
 	$('.nav a.active').removeClass('active');
-	// Show/hide menu on scroll
-	//if (scrollDistance >= 850) {
-	//		$('nav').fadeIn("fast");
-	//} else {
-	//		$('nav').fadeOut("fast");
-	//}
-
-	// Assign active class to nav links while scolling
 	$('.section').each(function (i) {
 		if ($(this).position().top <= scrollDistance) {
 			$('.nav a.active').removeClass('active');
@@ -219,7 +195,7 @@ request.onload = function () {
 };
 var cards_wrapper = document.querySelector('.cards_wrapper');
 var myCard = document.querySelectorAll('.card');
-var myFrontSide = document.querySelectorAll('.front-side');
+var myFrontSide = document.querySelectorAll('.front_side');
 var myHeader = document.querySelectorAll('.tour_name');
 var myList = document.querySelectorAll('.card_list');
 
