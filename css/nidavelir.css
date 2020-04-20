@@ -164,7 +164,7 @@ a.active{
 
 @media(max-width:1200px){
 	header{
-		margin: 20px;
+		/* margin: 20px; */
 	}
 }
 
@@ -812,3 +812,90 @@ hr{
 	margin-top: 3rem;
   }
  /* End of Footer */
+
+ @media (max-width:1200px){
+	 .intro__suptitle{
+		 font-size: 10rem;
+	 }
+	 .intro_title{
+		font-size: 7rem;
+	}
+	.button_intro{
+		width: 400px;
+		font-size: 2rem;
+		text-align: center;
+	}
+	 .section_text{
+		font-size: 0.7rem;
+	 }
+	 .cards_wrapper{
+		 flex-direction: column;
+		 align-items: center;
+	 }
+	 .card{
+		 margin: 2rem 0;
+	 }
+	 .card_list{
+		 font-size: 1.7rem;
+	 }
+	 .about{
+		flex-direction: column;
+		align-items: center;
+	}
+	.about_item{
+		width: 700px;
+		height: 400px;
+		margin: 2rem 0;
+	}
+	.about_item img{
+		width: 700px;
+		height: 400px;
+	}
+	.about_text{
+		font-size: 2.5rem;
+	}
+	.about__text{
+		font-size: 1rem;
+	}
+	.reviews{
+		padding: 0 50px;
+	}
+	.services{
+		flex-direction: column;
+		align-items: center;
+	}
+	.services__item{
+		width: 100%;
+		margin: 2rem 1rem;
+		font-size: 0.8rem;
+	}
+	.button_contact{
+		width: 300px;
+		text-align: center;
+	}
+
+	.footer_link{
+		font-size: 1.8rem;
+		margin: 0 1rem;
+	}
+
+	.tabs_content-inner{
+		flex-direction: column;
+		align-items: center;
+	}
+	.tabs_content-header,.tabs_header-text{
+		font-size: 2rem;
+		text-align: center;
+	}
+	.tabs_content-inner img{
+		width: 500px;
+		height: 300px;
+		margin-top: 10rem;
+	}
+ }
+
+ @media (max-width:500px){
+	html{
+		font-size: 35%;
+	}
+ }
