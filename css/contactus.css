@@ -1,3 +1,8 @@
+body{
+  background:url(../images/con3.jpeg) no-repeat center top / cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .center{
     display: flex;
 	justify-content: center;
@@ -5,9 +10,9 @@
 }
 
 .contact{
-    padding: 5rem 0 10rem 0;
+    /* padding: 5rem 0 10rem 0; */
     text-align: center;
-    background:url(../images/con4.jpeg) no-repeat center top / cover;
+    /* background:url(../images/con4.jpeg) no-repeat center top / cover; */
     background-size: cover;
     
 }
@@ -20,6 +25,7 @@
     color: #fff;
     text-shadow: 0 1rem 2rem #000;
     margin-bottom: 4rem;
+    /* margin-top: 0; */
     font-family: 'Spartan', sans-serif;
 }
 
@@ -59,7 +65,7 @@
 .input_group input,
 .input_group textarea {
   padding: 1rem 1rem 1rem 1rem;
-  background-color: #b6b6b6;
+  background-color: #e5e5e5;
   border: 0.1rem solid #b6b6b6;
   font-size: 1.4rem;
   color: #000;
