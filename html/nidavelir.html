@@ -16,39 +16,42 @@
 </head>
 
 <body>
-	<!-- Header -->
-	<header class="header">
-		<div class="container">
-			<div class="header__inner">
-				<div class="logo">
-					Nidavellir
+<!-- Header content -->
+	<header_content id="0">
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<a class="logo" href="#0">
+						Nidavellir
+					</a>
+	
+					<nav class="nav" id="mainNav">
+						<a class="nav_link" href="#1">About</a>
+						<a class="nav_link" href="#2">Service</a>
+						<a class="nav_link" href="#3">Popular tours</a>
+						<a class="nav_link" href="#4">Offers</a>
+						<a class="nav_link" href="#5">Reviews</a>
+						<a class="nav_link" href="#6">Contact</a>
+					</nav>
+					<div class="menu-toggle"></div>
 				</div>
-
-				<nav class="nav" id="mainNav">
-					<a class="nav_link" href="#1">About</a>
-					<a class="nav_link" href="#2">Service</a>
-					<a class="nav_link" href="#3">Popular tours</a>
-					<a class="nav_link" href="#4">Offers</a>
-					<a class="nav_link" href="#5">Reviews</a>
-					<a class="nav_link" href="#6">Contact</a>
-				</nav>
-				<div class="menu-toggle"></div>
+			</div>
+		</header>
+	
+		<!-- Intro -->
+		<div class="intro">
+			<div class="container">
+				<div class="intro__inner">
+					<h2 class="intro__suptitle">Nidavellir</h2>
+					<h1 class="intro_title">Welcome to extreme travel agency</h1>
+					<a class="button_intro" href="#">Learn More</a>
+				</div>
 			</div>
 		</div>
-	</header>
-	<!--End of Header -->
-
-	<!-- Intro -->
-	<div class="intro">
-		<div class="container">
-			<div class="intro__inner">
-				<h2 class="intro__suptitle">Nidavellir</h2>
-				<h1 class="intro_title">Welcome to extreme travel agency</h1>
-				<a class="button_intro" href="#">Learn More</a>
-			</div>
-		</div>
-	</div>
-	<!--End of Intro -->
+		<!--End of Intro -->
+	</header_content>
+	
+<!--End of Header content -->
 
 	<!-- About -->
 	<section class="section" id="1">
@@ -75,8 +78,8 @@
 
 			<div class="about_item text" id="text">
 				<div class="about__text">
-					The NIDAVELLIR search engine is a smart way to travel with great fun. Discover the adventures that
-					will bring you:
+					The NIDAVELLIR search engine is a smart way to travel with great fun. 
+					Discover the adventures that will bring you:
 					<ul>
 						<li>new experience</li>
 						<li>unsurpassed emotions</li>
@@ -176,7 +179,7 @@
 			<div class="cards_wrapper">
 				<div class="card">
 					<div class="front_side">
-						<img src="../images/rafting.jpg" class="card_image">
+						<img src="../images/rafting.jpg" class="card_image" width="280px" height="186px">
 						<h1 class="tour_name"></h1>
 						<ul class="card_list">
 							<li class="card_list-item"></li>
@@ -196,7 +199,7 @@
 				</div>
 				<div class="card card--center">
 					<div class="front_side">
-						<img src="../images/iropejumping.jpg" class="card_image">
+						<img src="../images/iropejumping.jpg" class="card_image" width="280px" height="186px">
 						<h1 class="tour_name"></h1>
 						<ul class="card_list">
 							<li class="card_list-item"></li>
@@ -216,7 +219,7 @@
 				</div>
 				<div class="card">
 					<div class="front_side">
-						<img src="../images/everest.jpg" class="card_image">
+						<img src="../images/everest.jpg" class="card_image" width="280px" height="186px">
 						<h1 class="tour_name"></h1>
 						<ul class="card_list">
 							<li class="card_list-item"></li>
@@ -254,18 +257,18 @@
 			</div>
 			<div class="tabs">
 				<div class="tabs_sidebar">
-					<button class="tabs_button" data-target="one">ROPE JUMPING in Svitzerland</button>
+					<button class="tabs_button" data-target="one">Rope Jumping in Svitzerland</button>
 					<button class="tabs_button" data-target="two">Trekking to Everest</button>
 					<button class="tabs_button" data-target="three">Rafting on Cheremosh</button>
-					<button class="tabs_button" data-target="four">TOUR TO CHORNOBYL</button>
+					<button class="tabs_button" data-target="four">Tour to Chornobyl</button>
 					<button class="tabs_button" data-target="five">Wild Iceland without cars</button>
-					<button class="tabs_button" data-target="six">MONTEROSA FREERIDE</button>
+					<button class="tabs_button" data-target="six">Monterosa Freeride</button>
 					<button class="tabs_button" data-target="seven">Trekking in Georgia</button>
 					<button class="tabs_button" data-target="eight">Norway on Vehicles</button>
 				</div>
 				<div class="tabs_content one">
 					<div class="tabs_content-header">
-						<h2>ROPE JUMPING IN NIOUC</h2>
+						<h2>Rope Jumping in Niouc</h2>
 						<div class="tabs_header-text"> Route d’Anniviers, 3960 Niouc, Switzerland</div>
 					</div>
 					<div class="tabs_content-inner">
@@ -294,7 +297,7 @@
 
 				<div class="tabs_content two">
 					<div class="tabs_content-header">
-						<h2>EVEREST TRAINING SOUTH BASIN CAMP</h2>
+						<h2>Everest Trekking South Basin Camp</h2>
 						<div class="tabs_header-text">Jomolungma,Tibet</div>
 					</div>
 					<div class="tabs_content-inner">
@@ -346,8 +349,8 @@
 				</div>
 				<div class="tabs_content four">
 					<div class="tabs_content-header">
-						<h2>Two-day tour to Chernobyl</h2>
-						<div class="tabs_header-text">Chernobyl,Kiev region</div>
+						<h2>Two-day tour to Chornobyl</h2>
+						<div class="tabs_header-text">Chornobyl,Kiev region</div>
 					</div>
 					<div class="tabs_content-inner">
 						<img src="../images/tab4.jpg" width="375px" height="250px">
@@ -499,7 +502,7 @@
 				<div class="reviews__item">
 					<img class="reviews__photo" src="../images/ava1.svg">
 					<div class="reviews__text">
-						"Best guide ever! I had an amazing days in Sibiu and that couldnt ve been possible with Nico,
+						"Best guide ever! I had an amazing days in Iceland and that couldnt ve been possible with Nico,
 						thank you for your time and that great experience"
 					</div>
 					<div class="reviews__author">John Doe</div>
@@ -519,14 +522,14 @@
 					<div class="reviews__text">
 						"I had wanted to hike to Everest for 20 years. The trip was an absolute adventure and fulfilled
 						my dream. The guides were awesome and paid such good attention and made sure we were taken care
-						of. Cannot recommend this trip highly enough"
+						of.Recommend this trip!"
 					</div>
 					<div class="reviews__author">Anna D</div>
 				</div>
 				<div class="reviews__item">
 					<img class="reviews__photo" src="../images/ava4.svg">
 					<div class="reviews__text">
-						"“What an incredible experience we had! The trip was perfectly organized, the accommodations
+						"“What an incredible experience in Georgia we had! The trip was perfectly organized, the accommodations
 						great, the food fantastic, especially all the fish we had and then there was Pepo! A truly
 						gifted guide, he had an encyclopedic knowledge of everything Iceland, was always attentive to
 						the group and had us laughing always. Don’t miss this trip!"
@@ -537,7 +540,7 @@
 					<img class="reviews__photo" src="../images/ava5.svg">
 					<div class="reviews__text">
 						"We travel....a lot, and this was an epic adventure! What we saw was amazing but even more
-						impressive was the logistics behind our travel. Our trip was flawless. All the transportation
+						impressive was the logistics behind our travel. Our trip in Norway was flawless. All the transportation
 						and local guides were on time and extremely nice. Our main guides, Sergio and Tambo were very
 						special people. I will highly recommend Active Adventure to everyone."
 					</div>
@@ -556,7 +559,8 @@
 				<h2 class="section_title">Contact Us</h2>
 				<div class="section_text">
 					<p>
-						We will be happy to answer your questions.Fill out the form and we will get back you shortly.
+						We will be happy to answer your questions.
+						Fill out the form and we will get back you shortly.
 					</p>
 				</div>
 				<div class="end_bg">
